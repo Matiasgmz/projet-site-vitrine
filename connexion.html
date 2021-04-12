@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/connexion.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E"/>
+<link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Raleway&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/840511e87a.js" crossorigin="anonymous"></script>
+    <title>STREET RAIL ROAD</title>
+</head>
+<body>
+    <header class="navbar">
+        <div>
+            <nav>
+                <ul>
+                    <li><i class="fas fa-bars"></i> <a>Menu</a>
+                        <ul class="sous">
+                            <li><a href=#Apropos>A propos</a></li>
+                            <li><a href=#Newletters>Newletters</a></li>
+                            <li><a href=#Discographie>Discographie</a></li>
+                            <li><a href=#Goodies>Goodies</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <p class="namegroup">Street Rail Road</p>
+        </div>
+    </header>
+    <h2>CONNEXION</h2>
+    <fieldset id="identifiant">
+    <form method="post" action="traitement.php">
+        <label for="NomdUtilisateur">Nom d'Utilisateur</label>
+        <input type="text" name="NomdUtilisateur"required/>
+        <div></div>
+        <label for="Motdepasse">Mot de passe</label>
+        <input type="password" name="Mot de passe"required/>
+        <div></div>
+        <input type="submit" value="Connexion"/>
+    </form>
+    </fieldset>
+    <h2>INSCRIPTION</h2>
+    <fieldset id="inscription">
+        <form method="POST" action="traitement.php">
+            <label for="Nom">Nom</label>
+            <input type="text" name="Nom"required/>
+            <div></div>
+            <label for="Prénom">Prénom</label>
+            <input type="text" name="Prénom"required/>
+            <div></div>
+            <label for="NomdUtilisateur">Nom d'utilisateur</label>
+            <input type="text" name="Nom d'utilisateur"required/>
+            <div></div>
+            <label for="mail">Mail</label>
+            <input type="email" name="mail"required/>
+            <div></div>
+            <label for="Mot de passe">Mot de passe</label>
+            <input type="password" name="Mot de passe"required/>
+            <div></div>
+            <label for="Adresse">Adresse</label><br />
+            <textarea name="adresse" id="adresse"required></textarea>
+            <p>Type de Carte</p>
+            <input type="radio" name="typecarte" value="Mastercard" id="Mastercard" /> <label for="Mastercard">Mastercard</label>
+            <input type="radio" name="typecarte" value="Visa" id="Visa" /> <label for="Visa">Visa</label>
+            <div></div>
+            <label for="Numero de Carte">Numero de carte</label>
+            <input type="number" name="Numéro de carte"required/>
+            <div></div>
+            <label for="Date d'exp">Date d'expiration</label>
+            <input type="datetime" name="Date d'exp"required/>
+            <div></div>
+            <label for="Crypto">Cryptograme</label>
+            <input type="text" name="Crypto"required/>
+            <div></div>
+            <input type="summit" value="Inscription"required/>
+        </form>
+    </fieldset>
+      
+
+    <footer class="foot">
+        <p> <a href="https://www.instagram.com/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.snapchat.com/l/fr-fr/" target="_blank"><i class="fab fa-snapchat-square"></i></a>
+            <a href="https://fr-fr.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://music.apple.com/us/browse" target="_blank"><i class="fab fa-apple"></i></a>
+            <a href="https://www.spotify.com/fr/" target="_blank"><i class="fab fa-spotify"></i></a>
+            <a href="https://www.deezer.com/fr/" target="_blank"><i class="fab fa-deezer"></i></a>
+        </p>
+
+    </footer>
+
+    
+</body>
+</html>
