@@ -7,14 +7,14 @@ body {
     font-size: 300px;
     color: white;
     font-family: 'Faster One', cursive;
-    margin-left: 27%;
+    margin-left: 25%;
     margin-top: 20%;
 }
 .buttonacceder {
     border-radius: 20px;
     font-size: 120px;
     background-color: blueviolet;
-    margin-left: 42%;
+    margin-left: 43%;
     margin top: 1px;
     padding: 50px;
 }
@@ -22,4 +22,5 @@ body {
     text-decoration: none;
     color: white;
     font-family: 'Raleway', sans-serif; 
+    font-size: 100px;
 }
