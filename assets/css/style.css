@@ -1,0 +1,25 @@
+body {
+    background-image: url(../img/escalator.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#textgroupe {
+    font-size: 300px;
+    color: white;
+    font-family: 'Faster One', cursive;
+    margin-left: 27%;
+    margin-top: 20%;
+}
+.buttonacceder {
+    border-radius: 20px;
+    font-size: 120px;
+    background-color: blueviolet;
+    margin-left: 42%;
+    margin top: 1px;
+    padding: 50px;
+}
+.textbutton {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif; 
+}
