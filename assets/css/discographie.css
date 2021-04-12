@@ -1,5 +1,5 @@
 body {
-    background-color: #000614;
+    background-color: white;
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
@@ -72,20 +72,28 @@ footer p a {
     height: 250px;
     margin-top: 100px;
     border-radius: 5%;
+    box-shadow: 5px 5px 10px grey;
 }
 .albumliste{
     display: none;
     position: absolute;
     width: auto;
     list-style-type: none;
+    color: white;
+    font-size: 20px;
 }
 ul li:hover .albumliste{
     display: block;
-    background-color: white;
-    width: 200px;
+    background-color: black;
+    width: 210px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border:black;
+    border: 1px;
 }
-.album1 ul {
+.album1 .dispositionpochette {
     display: inline-block;
+    list-style-type: none;
 }
 .dispositionpochette {
     margin-left: 100px;
