@@ -32,7 +32,7 @@ header nav ul {
 header div {
     display: flex;
 }
-header div #groupname {
+header div #namegroup {
     margin-top: 0%;
     margin-left: 31%;
     font-size: 30px;
@@ -74,6 +74,13 @@ footer p a {
     border-radius: 5%;
     box-shadow: 5px 5px 10px grey;
 }
+.taillephoto:hover {
+    width: 270px;
+    height: 270px;
+    margin-top: 100px;
+    border-radius: 5%;
+    box-shadow: 7px 7px 200px black;
+}
 .albumliste{
     display: none;
     position: absolute;
@@ -85,7 +92,7 @@ footer p a {
 ul li:hover .albumliste{
     display: block;
     background-color: black;
-    width: 210px;
+    width: 230px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border:black;
@@ -96,5 +103,5 @@ ul li:hover .albumliste{
     list-style-type: none;
 }
 .dispositionpochette {
-    margin-left: 100px;
+    margin-left: 50px;
 }

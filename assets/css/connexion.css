@@ -27,13 +27,17 @@
   header div {
     display: flex;
   }
-  header div p {
+  header div .namegroup {
     margin-top: 0%;
     margin-left: 31%;
     font-size: 30px;
-    font-family: 'Faster One',cursive;
     color: white;
+    font-family: 'Faster One', 'cursive';
   }
+  header div #connexion {
+    margin-top: 0%;
+    margin-left: 28%;
+}
   header a {
     text-decoration: none;
     color: white;
