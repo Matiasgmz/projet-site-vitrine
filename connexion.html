@@ -42,6 +42,7 @@
     <h2>INSCRIPTION</h2>
     <fieldset id="inscription">
         <form method="POST" action="traitement.php">
+                <h2>Formulaire d'inscription</h2>
             <label for="Lastname">Nom</label>
             <input type="text" name="Lastname" placeholder="Nom"required/>
             <div></div>
@@ -59,20 +60,26 @@
             <div></div>
             <label for="Adress">Adresse</label><br />
             <textarea name="Adress" id="Adress" placeholder="1345 Chemin musicaux 56789 Airplanes"required></textarea>
+            <div></div>
+            <fieldset>
+                <h2>Système de Paiement</h2>
             <p>Type de Carte</p>
-            <input type="radio" name="Cardtype" value="Mastercard" id="Mastercard" /> <label for="Mastercard">Mastercard</label>
-            <input type="radio" name="Cardtype" value="Visa" id="Visa" /> <label for="Visa">Visa</label>
+            <input type="radio" name="Cardtype" value="Mastercard" id="Mastercard"/><i class="fab fa-cc-mastercard"></i>
+
+            <label for="Mastercard">Mastercard</label>
+            <input type="radio" name="Cardtype" value="Visa" id="Visa" /> <i class="fab fa-cc-visa"></i><label for="Visa">Visa</label>
             <div></div>
             <label for="Cardnumber">Numero de carte</label>
             <input type="text" name="Cardnumber" placeholder="Numero de carte"required/>
             <div></div>
-            <label for="Datetime">Date d'expiration</label>
-            <input type="Datetime" name="Datetime" placeholder="01/21"required/>
+            <label for="Expirydate">Date d'expiration</label>
+            <input type="Datetime" name="Expirydate" placeholder="01/21"required/>
             <div></div>
-            <label for="Cryptogram">Cryptograme</label>
-            <input type="text" name="Cryptogram" placeholder="000"required/>
+            <label for="Securitycode">Cryptograme</label>
+            <input type="text" name="Securitycode" placeholder="000"required/>
             <div></div>
             <input type="submit" value="Inscription"required/>
+            </fieldset>
         </form>
     </fieldset>
     </div>

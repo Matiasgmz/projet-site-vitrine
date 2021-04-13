@@ -40,14 +40,14 @@
   }
   
   body {
-    font-family: 'Raleway'; sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color:black;
     margin: 0;
   }
   h1 {
     text-align: center;
     color:white;
-    font-family: 'Raleway'; sans-serif;
+    font-family: 'Raleway', sans-serif;
 
   }
   .foot {
@@ -82,7 +82,7 @@ h2 {
 }
 #inscription {
     background-color: transparent;
-    text-align: center;
+    text-align:center;
     width: 50%;
     margin-left: 27%;
     color: white;
