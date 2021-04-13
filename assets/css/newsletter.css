@@ -39,7 +39,7 @@ body
   header div {
     display: flex;
   }
-  header div p {
+  header div #namegroup {
     margin-top: 0%;
     margin-left: 31%;
     font-size: 30px;
