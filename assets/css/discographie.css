@@ -10,7 +10,7 @@ body {
 }
   nav > ul li:hover .sous{
     display: block;
-    background-color: #959299;
+    background-color: black;
     width: 23%;
 }
 .navbar {
@@ -18,7 +18,7 @@ body {
     font-size: 25px;
     width: 100%;
     height: 35px;
-    background-color:#959299;
+    background-color: black;
     color: azure;
     z-index: 100;
     top: 0%;
@@ -50,7 +50,7 @@ header div #connexion {
     margin-left: 28%;
 }
 .foot {
-    background-color: #959299;
+    background-color:black;
     width: 100%;
     height: 35px;
     position: fixed;
@@ -104,4 +104,8 @@ ul li:hover .albumliste{
 }
 .dispositionpochette {
     margin-left: 50px;
+}
+#vinyle {
+    width: 100%;
+    height: 100%;
 }
