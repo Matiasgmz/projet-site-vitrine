@@ -3,14 +3,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#textgroupe {
+#textgroup {
     font-size: 80px;
     color: white;
     font-family: 'Faster One', cursive;
     margin-left: 23%;
     margin-top: 20%;
 }
-.buttonacceder {
+.buttonaccess {
     border-radius: 20px;
     background-color: blueviolet;
     margin-left: 43%;

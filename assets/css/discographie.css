@@ -3,12 +3,12 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
-.sous{
+.under{
     display: none;
     position: absolute;
     width: auto;
 }
-  nav > ul li:hover .sous{
+  nav > ul li:hover .under{
     display: block;
     background-color: black;
     width: 23%;
@@ -45,7 +45,7 @@ header a {
 header {
       margin: 0%;
 }
-header div #connexion {
+header div #connect {
     margin-top: 0%;
     margin-left: 28%;
 }
@@ -67,21 +67,21 @@ footer p a {
     color: white;
     margin-left: 50px;
 }
-.taillephoto {
+.sizephoto {
     width: 250px;
     height: 250px;
     margin-top: 100px;
     border-radius: 5%;
     box-shadow: 5px 5px 10px grey;
 }
-.taillephoto:hover {
+.sizephoto:hover {
     width: 270px;
     height: 270px;
     margin-top: 100px;
     border-radius: 5%;
     box-shadow: 7px 7px 200px black;
 }
-.albumliste{
+.albumlist {
     display: none;
     position: absolute;
     width: auto;
@@ -89,7 +89,7 @@ footer p a {
     color: white;
     font-size: 20px;
 }
-ul li:hover .albumliste{
+ul li:hover .albumlist{
     display: block;
     background-color: black;
     width: 230px;
@@ -98,14 +98,14 @@ ul li:hover .albumliste{
     border:black;
     border: 1px;
 }
-.album1 .dispositionpochette {
+.album1 .pocketlayout {
     display: inline-block;
     list-style-type: none;
 }
-.dispositionpochette {
+.pocketlayout {
     margin-left: 50px;
 }
-#vinyle {
+#vinyl {
     width: 100%;
     height: 100%;
 }
