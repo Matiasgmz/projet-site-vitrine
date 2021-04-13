@@ -73,10 +73,11 @@ footer p a {
     margin-left: 50px;
 }
 #identifiant {
-    background-color: pink;
+    background-color:transparent;
     text-align: center;
     width: 50%;
     margin-left: 27%;
+    color: white;
 }
 h2 {
     text-align: center;
@@ -84,8 +85,9 @@ h2 {
     color: whitesmoke;
 }
 #inscription {
-    background-color: powderblue;
+    background-color: transparent;
     text-align: center;
     width: 50%;
     margin-left: 27%;
+    color: white;
 }
