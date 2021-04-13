@@ -5,7 +5,7 @@
   }
   nav > ul li:hover .under{
     display: block;
-    background-color: #959299;
+    background-color: black;
     width: 23%;
   }
   .navbar {
@@ -14,7 +14,7 @@
     width: 100%;
     height: 35px;
     top: 0;
-    background-color:#959299;
+    background-color:black;
     color: azure;
     z-index: 100;
   }
@@ -32,7 +32,7 @@
     margin-left: 31%;
     font-size: 30px;
     font-family: 'Faster One','cursive';
-    color: white;
+    color: whitesmoke;
   }
   header a {
     text-decoration: none;
@@ -44,7 +44,7 @@
   }
 
   .foot {
-    background-color: #959299;
+    background-color: black;
     width: 100%;
     height: 35px;
     position: fixed;
@@ -63,9 +63,8 @@ footer p a {
 }
 body {
     font-family: 'Raleway', sans-serif;
-    background-color:black;
+    background-color:white;
     margin: 0;
-    color: white;
   }
 h1
 {
@@ -74,15 +73,15 @@ h1
 
 .container {
   position: relative;
-  width: 400px;
   display: inline-block;
-  margin: 100px;
+  margin-left: 150px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .image {
   display: block;
-  width: 400px;
-  height: 400px;
+  width: 300px;
 }
 
 .overlay {
@@ -91,15 +90,14 @@ h1
   bottom: 0;
   left: 0;
   right: 0;
-  height: 400px;
-  width: 400px;
+  width: 300px;
   opacity: 0;
   transition: .5s ease;
   background-color: white;
 }
 
 .container:hover .overlay {
-  opacity: 50%;
+  opacity: 75%;
 }
 
 .text {
@@ -113,3 +111,26 @@ h1
   transform: translate(-50%, -50%);
   text-align: center;
 }
+#title {
+  margin-top: 100px;
+}
+#facebooklogo {
+  color: 	#1E90FF;
+}
+#snaplogo {
+  color: yellow;
+}
+#spotifylogo {
+   color: yellowgreen;
+}
+#instalogo {
+  color: orange;
+}
+#deezerlogo {
+  color: blue;
+}
+table {
+  border-color: black;
+  background-color: black;
+  width: 85%;
+  margin-left: 7.5%;
