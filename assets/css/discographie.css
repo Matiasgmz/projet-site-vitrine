@@ -113,13 +113,16 @@ ul li:hover .albumlist{
     overflow:hidden; 
     padding-bottom:56.25%; 
     position:relative;
-    margin-bottom: 0;
-    top: 0%;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .video iframe { 
-    left:25%;
-    height: 50%; 
-    width: 50%; 
+    height: 100%; 
+    width: 100%; 
     position:absolute;
+}
+.titlepage {
+    margin-top: 100px;
+    text-align: center;
 }
