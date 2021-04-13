@@ -31,11 +31,11 @@
     <h2>CONNEXION</h2>
     <fieldset id="identifiant">
     <form method="post" action="traitement.php">
-        <label for="NomdUtilisateur">Nom d'Utilisateur</label>
-        <input type="text" name="NomdUtilisateur"required/>
+        <label for="Username">Nom d'Utilisateur</label>
+        <input type="text" name="Username" placeholder="Nom d'Utilisateur" required/>
         <div></div>
-        <label for="Motdepasse">Mot de passe</label>
-        <input type="password" name="Mot de passe"required/>
+        <label for="Password">Mot de passe</label>
+        <input type="password" name="Password" placeholder="Mot de passe"required/>
         <div></div>
         <input type="submit" value="Connexion"/>
     </form>
@@ -43,35 +43,35 @@
     <h2>INSCRIPTION</h2>
     <fieldset id="inscription">
         <form method="POST" action="traitement.php">
-            <label for="Nom">Nom</label>
-            <input type="text" name="Nom"required/>
+            <label for="Lastname">Nom</label>
+            <input type="text" name="Lastname" placeholder="Nom"required/>
             <div></div>
-            <label for="Prénom">Prénom</label>
-            <input type="text" name="Prénom"required/>
+            <label for="Firstname">Prénom</label>
+            <input type="text" name="Firstname" placeholder="Prénom"required/>
             <div></div>
-            <label for="NomdUtilisateur">Nom d'utilisateur</label>
-            <input type="text" name="Nom d'utilisateur"required/>
+            <label for="Username">Nom d'Utilisateur</label>
+            <input type="text" name="Username" placeholder="Nom d'Utilisateur"required/>
             <div></div>
-            <label for="mail">Mail</label>
-            <input type="email" name="mail"required/>
+            <label for="Mail">Mail</label>
+            <input type="email" name="Mail" placeholder="Mail@connexion.com"required/>
             <div></div>
-            <label for="Mot de passe">Mot de passe</label>
-            <input type="password" name="Mot de passe"required/>
+            <label for="Password">Mot de passe</label>
+            <input type="password" name="Password" placeholder="Mot de passe"required/>
             <div></div>
-            <label for="Adresse">Adresse</label><br />
-            <textarea name="adresse" id="adresse"required></textarea>
+            <label for="Adress">Adresse</label><br />
+            <textarea name="Adress" id="Adress" placeholder="1345 Chemin musicaux 56789 Airplanes"required></textarea>
             <p>Type de Carte</p>
-            <input type="radio" name="typecarte" value="Mastercard" id="Mastercard" /> <label for="Mastercard">Mastercard</label>
-            <input type="radio" name="typecarte" value="Visa" id="Visa" /> <label for="Visa">Visa</label>
+            <input type="radio" name="Cardtype" value="Mastercard" id="Mastercard" /> <label for="Mastercard">Mastercard</label>
+            <input type="radio" name="Cardtype" value="Visa" id="Visa" /> <label for="Visa">Visa</label>
             <div></div>
-            <label for="Numero de Carte">Numero de carte</label>
-            <input type="text" name="Numéro de carte"required/>
+            <label for="Cardnumber">Numero de carte</label>
+            <input type="text" name="Cardnumber" placeholder="Numero de carte"required/>
             <div></div>
-            <label for="Date d'exp">Date d'expiration</label>
-            <input type="datetime" name="Date d'exp"required/>
+            <label for="Datetime">Date d'expiration</label>
+            <input type="Datetime" name="Datetime" placeholder="01/21"required/>
             <div></div>
-            <label for="Crypto">Cryptograme</label>
-            <input type="text" name="Crypto"required/>
+            <label for="Cryptogram">Cryptograme</label>
+            <input type="text" name="Cryptogram" placeholder="000"required/>
             <div></div>
             <input type="submit" value="Inscription"required/>
         </form>
