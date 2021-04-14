@@ -1,9 +1,9 @@
-.sous{
+.under{
     display: none;
     position: absolute;
     width: auto;
   }
-  nav > ul li:hover .sous{
+  nav > ul li:hover .under{
     display: block;
     background-color: #959299;
     width: 23%;
@@ -34,7 +34,7 @@
     font-family: 'Faster One',cursive;
     color: white;
   }
-  header div #connexion {
+  header div #connection {
     margin-top: 0%;
     margin-left: 28%;
 }
@@ -43,18 +43,17 @@
     color: white;
   }
   body {
-    font-family: 'Raleway'; sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color:black;
     margin: 0;
   }
   h1 {
     text-align: center;
     color:white;
-    font-family: 'Raleway'; sans-serif;
+    font-family: 'Raleway', sans-serif;
 
   }
-  img {width: ;
-    height: ;
+  img {
     opacity: 60%;
     border-radius: 5%;
   }

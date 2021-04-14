@@ -1,9 +1,9 @@
-.sous{
+.under{
     display: none;
     position: absolute;
     width: auto;
   }
-  nav > ul li:hover .sous{
+  nav > ul li:hover .under{
     display: block;
     background-color: #959299;
     width: 23%;
@@ -27,7 +27,7 @@
   header div {
     display: flex;
   }
-  header div .namegroup {
+  header div #namegroup {
     margin-top: 0%;
     margin-left: 31%;
     font-size: 30px;
@@ -68,40 +68,29 @@ footer p a {
     color: white;
     margin-left: 50px;
 }
-#identifiant {
+#username {
     background-color:transparent;
-    text-align: center;
     width: 50%;
-    margin-left: 27%;
+    margin: 0 auto;
     color: white;
 }
 h2 {
     text-align: center;
-    margin-left: 10%;
     color: whitesmoke;
 }
-#inscription {
+#signin {
     background-color: transparent;
-    text-align:center;
     width: 50%;
-    margin-left: 27%;
+    margin: 0 auto;
     color: white;
-}
-#facebooklogo {
-  color: 	#1E90FF;
-}
-#snaplogo {
-  color: yellow;
-}
-#spotifylogo {
-   color: yellowgreen;
-}
-#instalogo {
-  color: orange;
-}
-#deezerlogo {
-  color: blue;
 }
 #form {
   margin-bottom: 100px;
+}
+.inside {
+  margin: 0 auto;
+  width: 30%;
+}
+.button {
+ margin-left: 35%;
 }

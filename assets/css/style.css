@@ -3,10 +3,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#textgroup {
+#groupname {
     font-size: 80px;
     color: white;
-    font-family: 'Faster One', cursive;
+    font-family: 'Faster One', 'cursive';
     margin-left: 23%;
     margin-top: 20%;
 }
