@@ -105,7 +105,7 @@ table
   position: absolute;
   height: 750px;
   margin-top: 105px;
-  left: 28%;
+  left: 0%;
   margin-right: 1px;
 }
 #guardrailright
@@ -113,7 +113,7 @@ table
   position: absolute;
   height: 750px;
   margin-top: 105px;
-  right: 27%;
+  right: 0%;
   margin-left: 1px;
 }
 
@@ -126,19 +126,4 @@ table
 {
   text-align: center;
   font-weight: bold;
-}
-#facebooklogo {
-  color: 	#1E90FF;
-}
-#snaplogo {
-  color: yellow;
-}
-#spotifylogo {
-   color: yellowgreen;
-}
-#instalogo {
-  color: orange;
-}
-#deezerlogo {
-  color: blue;
 }
